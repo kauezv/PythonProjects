@@ -1,0 +1,12 @@
+print('===== CÁLCULO DE TINTA POR METRO QUADRADO ====='
+      ' \n'
+      ' \nVamos calcular quantos litros de tinta são necessários \npara pintar a sua parede'
+      ' \n(Obs: cada litro de tinta pinta uma área de 2.00m2)'
+      ' \n')
+L = float(input('Digite a largura da parede (X.XX metros): '))
+A = float(input('Digite a altura da parede (X.XX metros): '))
+area = L*A
+tinta = area/2
+print(f' \nA área total da parede é == {area:.2f}m2 =='
+      f' \ne são necessários == {tinta:.2f} == litros de tinta para pintar a parede'
+      )
