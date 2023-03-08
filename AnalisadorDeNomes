@@ -1,0 +1,21 @@
+import time
+
+nome = str(input('Digite o seu nome: ')).strip()
+
+print('Analisando...')
+
+time.sleep(0.8)
+#delay do analisando...
+
+print(f'\nSeu nome em letras maiúsculas é: {nome.upper()}')
+# transformar para maiúsculas
+
+print(f'Seu nome em letras minúsculas é: {nome.lower()}')
+# transformar para minúsculas
+
+nomedividido = (nome.split())
+print('Seu nome possui {} letras'.format(len(nome.replace(' ',''))))
+# contar quantos caracteres tem o nome, desconsiderando os espaços
+
+print(f'Seu primeiro nome tem {len(nomedividido[0])} letras')
+# contar quantos caracteres tem o primeiro nome
