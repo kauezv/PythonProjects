@@ -1,0 +1,13 @@
+from random import randint
+from time import sleep
+
+n1 = (randint(0,5))
+n2 = int(input('Pensei em um número entre 0 e 5... Adivinhe: '))
+
+print('PROCESSANDO...')
+sleep(2)
+
+if n2 == n1:
+    print(f'Você acertou! O número era {n1}')
+else:
+    print(f'Você errou! O número era {n1}')
