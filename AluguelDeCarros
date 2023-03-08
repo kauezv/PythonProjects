@@ -1,0 +1,7 @@
+print('=========== ALUGUEL DE CARROS ============== \n'
+      '= R$ 60.00 por dia + R$ 0.15 por KM rodado = \n')
+dias = int(input('Quantos dias o carro foi alugado? '))
+km = float(input('Quantos KM rodados? '))
+carro = 60
+gasolina = 0.15
+print(f'\nO total a pagar é de R$ {(carro*dias)+(km*gasolina):.2f}')
